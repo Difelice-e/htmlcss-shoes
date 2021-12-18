@@ -3,9 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
-
 
 .clearfix::after {
     content: '';
@@ -28,8 +27,7 @@ nav {
 }
 
 nav ol {
-    list-style-type: none;
-    
+    list-style-type: none;  
 }
 
 nav ol li {
@@ -73,7 +71,7 @@ nav a {
 
 
 /* PRODUCT__WRAPPER  */
-.product__wrapper {
+.product .product__wrapper {
     width: 50vw;
     height: 50vh;
     position: absolute;
